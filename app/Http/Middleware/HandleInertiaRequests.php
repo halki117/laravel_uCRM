@@ -43,6 +43,10 @@ class HandleInertiaRequests extends Middleware
                     'location' => $request->url(),
                 ]);
             },
+            'flash' => [
+                // fn() => はphp7.4からのアロー関数。関数を挟むと、必要な時だけ呼び出される。
+                'message' => fn() => $request->session()->get('message')
+            ]
         ]);
     }
 }
