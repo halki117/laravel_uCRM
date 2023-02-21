@@ -1,5 +1,5 @@
 <script setup>
-defineProps(['value']);
+defineProps(['value', 'test']);
 </script>
 
 <template>
@@ -7,4 +7,5 @@ defineProps(['value']);
         <span v-if="value">{{ value }}</span>
         <span v-else><slot /></span>
     </label>
+    <div v-if="test">{{ test }}</div>
 </template>
