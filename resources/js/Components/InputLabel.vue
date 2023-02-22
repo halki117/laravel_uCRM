@@ -14,5 +14,5 @@ defineEmits(['update:modelValue']);
 
     <!-- @input は文字が入力された時点でイベント発火 -->
     <!-- $event.target.value はフォームの入力内容 -->
-    <input type="text" @input="$emit('update:modelValue', $event.target.value)">
+    <!-- 　　 -->
 </template>
