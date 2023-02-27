@@ -61,7 +61,7 @@ const storeItem = () => {
                                     <label
                                     for="memo"
                                     class="leading-7 text-sm text-gray-600"
-                                    >Message</label
+                                    >メモ</label
                                     >
                                     <textarea
                                     id="memo"
@@ -77,7 +77,7 @@ const storeItem = () => {
                                     <label
                                     for="price"
                                     class="leading-7 text-sm text-gray-600"
-                                    >商品名</label
+                                    >価格</label
                                     >
                                     <input
                                     type="number"
